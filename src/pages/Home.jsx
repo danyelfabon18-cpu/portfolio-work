@@ -1,8 +1,11 @@
+import Hero from '../components/Hero';
+import AboutPreview from '../components/AboutPreview';
+
 function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
-      <p>Welcome to Brew & Co.!</p>
+      <Hero />
+      <AboutPreview /> 
     </div>
   );
 }
